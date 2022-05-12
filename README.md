@@ -6,3 +6,4 @@
 [autor] Przemysław Lange
 [page] przemeklange.pl
 # sliderpage
+# sliderpage
