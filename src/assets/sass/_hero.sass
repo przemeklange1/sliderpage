@@ -1,0 +1,43 @@
+.home
+    display: flex
+    align-items: center
+    min-height: 700px
+    .slider_image
+        max-width: 700px
+        .slider_inside
+            width: 100%
+            animation-name: opacity
+            animation-duration: 2s
+
+        #first
+            display: block
+
+        #second, #third
+            display: none
+
+    h1
+        font-size: 123px
+        font-weight: 800
+        span
+            animation-name: opacity
+            animation-duration: 4s
+
+.choose
+    display: flex
+    flex-direction: column
+    img
+        cursor: pointer
+        padding: 10px 0
+        width: 100%
+
+@keyframes opacity
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
+@media only screen and (max-width: 1024px)
+    .choose
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
